@@ -3,11 +3,13 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-        //System.out.println("Hello Java");
-        //houseExample();
+        // System.out.println("Hello Java");
+        // houseExample();
         basicLab();
     } // end method
-/*
+
+
+    /*
 * This is just me trying out the multi-lined comment.
 * */
     public static void houseExample() {
@@ -27,9 +29,14 @@ public class Main {
         System.out.println(thirdHouse.doorColor);
         System.out.println(otherHouse.doorColor);
 
-    public static void basicLab() {
+            }
+    private static void basicLab() {
 
-
+        System.out.println("This is my first statement.");
+        System.out.println("I am new to Java.");
+        System.out.println("This Java course is cool.");
+        System.out.println("I am learning new stuff every day.");
 
     }
+
 } // end class
