@@ -5,13 +5,27 @@ public class Main {
     public static void main(String[] args) {
         // System.out.println("Hello Java");
         // houseExample();
-        basicLab();
+        lesson3Example();
     } // end method
 
+    public static void lesson3Example() {
+        Lesson3 myLesson3 = new Lesson3();
+        // myLesson3.exampleString();
+        // myLesson3.exampleCharAt();
+        // myLesson3.exampleConcat();
+        // myLesson3.exampleEquals();
+        //myLesson3.exampleLower();
+        //myLesson3.exampleUpper();
+        //myLesson3.exampleLength();
+        //System.out.println(myLesson3.exampleReplace());
+        //myLesson3.exampleBuilder("Ravioli", 18);
+        //myLesson3.exampleChar();
+        myLesson3.exampleEscape();
+    } // end method
 
     /*
-* This is just me trying out the multi-lined comment.
-* */
+    * This is just me trying out the multi-lined comment.
+    * */
     public static void houseExample() {
         House myHouse = new House();
         myHouse.doorColor = "Red";
