@@ -5,11 +5,21 @@ public class Main {
     public static void main(String[] args) {
         // System.out.println("Hello Java");
         // houseExample();
-        lesson3Example();
+        lesson4Example();
     } // end method
 
+
+    public static void lesson4Example() {
+        Lesson4 myLesson4 = new Lesson4();
+        //myLesson4.numericExamples();
+        //myLesson4.exponentExample();
+        // myLesson4.exampleImplicit();
+        // myLesson4.exampleExplicit();
+        myLesson4.sampleMethods();
+    }
+
     public static void lesson3Example() {
-        Lesson3 myLesson3 = new Lesson3();
+        //Lesson3 myLesson3 = new Lesson3();
         // myLesson3.exampleString();
         // myLesson3.exampleCharAt();
         // myLesson3.exampleConcat();
@@ -20,7 +30,7 @@ public class Main {
         //System.out.println(myLesson3.exampleReplace());
         //myLesson3.exampleBuilder("Ravioli", 18);
         //myLesson3.exampleChar();
-        myLesson3.exampleEscape();
+        //myLesson3.exampleEscape();
     } // end method
 
     /*
