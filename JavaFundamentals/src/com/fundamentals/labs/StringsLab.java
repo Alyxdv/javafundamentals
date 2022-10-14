@@ -10,9 +10,11 @@ public class StringsLab {
 
         String attempt = gonnaBeSmall.toLowerCase();
         char choice = '\u00E6';
+        char oneCh = 'A';
 
         System.out.println(attempt);
         System.out.println(choice);
+        System.out.println(oneCh);
         System.out.println(howLongCanUGo.length());
 
     }
