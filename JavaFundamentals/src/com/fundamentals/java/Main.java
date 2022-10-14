@@ -1,12 +1,20 @@
 package com.fundamentals.java;
 
+import com.fundamentals.practice.ModifierPractice;
+
 public class Main {
 
     public static void main(String[] args) {
         // System.out.println("Hello Java");
         // houseExample();
-        lesson4Example();
+        lesson3Example();
+        // lesson4Example();
+        // modifierExample();
     } // end method
+
+    public static void modifierExample() {
+        //practice.exampleProtected("Matt"); // cannot access because of protected modifer
+    }
 
 
     public static void lesson4Example() {
@@ -19,8 +27,8 @@ public class Main {
     }
 
     public static void lesson3Example() {
-        //Lesson3 myLesson3 = new Lesson3();
-        // myLesson3.exampleString();
+        Lesson3 myLesson3 = new Lesson3();
+        myLesson3.exampleString();
         // myLesson3.exampleCharAt();
         // myLesson3.exampleConcat();
         // myLesson3.exampleEquals();

@@ -2,10 +2,10 @@ package com.fundamentals.java;
 
 /*
 * All about Strings
-* Strings are objects that make them immutable.
+* Strings are objects, that makes them immutable.
 * Immutable means that once a string object is created,
 * its data and state cannot be change.
-* A new oject will be created instead.
+* A new object will be created instead.
  */
 
 public class Lesson3 {
