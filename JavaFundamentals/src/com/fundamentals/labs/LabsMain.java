@@ -11,6 +11,7 @@ public class LabsMain {
     public static void StringsExamples() {
         StringsLab examples = new StringsLab();
         examples.labStrings();
+        examples.secondMethod();
     }
 }
 

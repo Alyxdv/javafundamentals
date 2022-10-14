@@ -38,7 +38,7 @@ public class Main {
         //System.out.println(myLesson3.exampleReplace());
         //myLesson3.exampleBuilder("Ravioli", 18);
         //myLesson3.exampleChar();
-        //myLesson3.exampleEscape();
+        myLesson3.exampleEscape();
     } // end method
 
     /*
