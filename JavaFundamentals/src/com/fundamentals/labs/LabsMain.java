@@ -14,8 +14,12 @@ public class LabsMain {
 
         NumbersLab examples = new NumbersLab();
         examples.numbersOne();
+        examples.numbersTwo();
+        examples.numbersThree();
 
     }
+
+
 }
 
 
