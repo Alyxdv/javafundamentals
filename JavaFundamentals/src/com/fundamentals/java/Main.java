@@ -1,16 +1,28 @@
 package com.fundamentals.java;
 
-import com.fundamentals.practice.ModifierPractice;
-
 public class Main {
 
     public static void main(String[] args) {
+        lesson5Example();
         // System.out.println("Hello Java");
         // houseExample();
-        lesson3Example();
+        // lesson3Example();
         // lesson4Example();
         // modifierExample();
     } // end method
+
+    public static void lesson5Example() {
+        Lesson5 lesson5 = new Lesson5();
+       // lesson5.localDateTimeExample();
+       // lesson5.localEpochExample();
+        //lesson5.localDateParseExample();
+       // lesson5.localDateExample();
+        // lesson5.epochDateExample();
+        //lesson5.epochBDayTrial();
+       // lesson5.localTimeExample();
+        // lesson5.bornDateFormatter();
+        lesson5.timePeriodExample();
+    }
 
     public static void modifierExample() {
         //practice.exampleProtected("Matt"); // cannot access because of protected modifer
@@ -18,17 +30,17 @@ public class Main {
 
 
     public static void lesson4Example() {
-        Lesson4 myLesson4 = new Lesson4();
+        // Lesson4 myLesson4 = new Lesson4();
         //myLesson4.numericExamples();
         //myLesson4.exponentExample();
         // myLesson4.exampleImplicit();
         // myLesson4.exampleExplicit();
-        myLesson4.sampleMethods();
+        // myLesson4.sampleMethods();
     }
 
     public static void lesson3Example() {
-        Lesson3 myLesson3 = new Lesson3();
-        myLesson3.exampleString();
+        //Lesson3 myLesson3 = new Lesson3();
+        //myLesson3.exampleString();
         // myLesson3.exampleCharAt();
         // myLesson3.exampleConcat();
         // myLesson3.exampleEquals();
@@ -38,7 +50,7 @@ public class Main {
         //System.out.println(myLesson3.exampleReplace());
         //myLesson3.exampleBuilder("Ravioli", 18);
         //myLesson3.exampleChar();
-        myLesson3.exampleEscape();
+        //myLesson3.exampleEscape();
     } // end method
 
     /*
