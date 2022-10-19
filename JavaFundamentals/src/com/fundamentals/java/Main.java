@@ -3,16 +3,33 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-        lesson5Example();
+        //lesson5Example();
         // System.out.println("Hello Java");
         // houseExample();
         // lesson3Example();
         // lesson4Example();
         // modifierExample();
+        lesson6Example();
     } // end method
 
+    public static void lesson6Example() {
+        Lesson6 lesson6 = new Lesson6();
+       // lesson6.basicMath();
+       // lesson6.exampleModulus();
+        lesson6.mathOrder();
+       // lesson6.addTwoNumbers();
+       // lesson6.exampleAssignment();
+       // lesson6.exampleRelationalEquals(12, 13);
+       // lesson6.exampleRelationalGreater(11,11);
+       // lesson6.exampleLogicalAnd(5, 7, 9);
+       // lesson6.exampleLogicalOr(10,10,5);
+        // lesson6.exampleLogicalNot(10, 15);
+       // lesson6.exampleIncrement();
+       // lesson6.exampleDecrement();
+    }
+
     public static void lesson5Example() {
-        Lesson5 lesson5 = new Lesson5();
+        //Lesson5 lesson5 = new Lesson5();
        // lesson5.localDateTimeExample();
        // lesson5.localEpochExample();
         //lesson5.localDateParseExample();
@@ -21,7 +38,7 @@ public class Main {
         //lesson5.epochBDayTrial();
        // lesson5.localTimeExample();
         // lesson5.bornDateFormatter();
-        lesson5.timePeriodExample();
+        //lesson5.timePeriodExample();
     }
 
     public static void modifierExample() {
