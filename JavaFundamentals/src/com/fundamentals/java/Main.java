@@ -9,8 +9,23 @@ public class Main {
         // lesson3Example();
         // lesson4Example();
         // modifierExample();
-        lesson6Example();
+        //lesson6Example();
+        lesson7Example();
     } // end method
+
+    public static void lesson7Example() {
+        Lesson7 lesson7 = new Lesson7();
+        //lesson7.basicIfStatement(11,11);
+        //lesson7.basicIfElseStatement(10, 15);
+        //lesson7.mathAndIf(5,20,12);
+        //String result = lesson7.basicIfElseChain(15);
+        //System.out.println(result); // needed to print the String return.
+        //lesson7.basicIfAndExample(19);
+        //lesson7.basicIfOrExample(180);
+        //lesson7.basicSwitch(3);
+        //lesson7.otherSwitch("Friday");
+        System.out.println(lesson7.patternSwitch(3));
+    }
 
     public static void lesson6Example() {
         Lesson6 lesson6 = new Lesson6();
