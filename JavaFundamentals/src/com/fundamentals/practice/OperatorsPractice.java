@@ -30,16 +30,3 @@ public class OperatorsPractice {
 
 
 }
-  /*  public void mathOrder() {
-        int total = 10 / (3 + 2) * 4 + 5 * 10 + 6 - 9;
-        System.out.println(total);
-    }
-
-    public void addTwoNumbers() {
-        int sum1, sum2, total;
-        System.out.println("Enter two integers to calculate their sum.");
-        Scanner in = new Scanner(System.in);
-        sum1 = in.nextInt();
-        sum2 = in.nextInt();
-        total = sum1 + sum2;
-        System.out.println(total); */

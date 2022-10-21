@@ -10,8 +10,21 @@ public class Main {
         // lesson4Example();
         // modifierExample();
         //lesson6Example();
-        lesson7Example();
+        //lesson7Example();
+        lesson8Example();
+
     } // end method
+
+    public static void lesson8Example() {
+        Lesson8 lesson8 = new Lesson8();
+        //lesson8.basicWhileLoop();
+       // lesson8.countdown();
+        lesson8.basicDoWhileLoop(10);
+        lesson8.basicForLoop(6);
+        lesson8.multiLoop(4, 8);
+        lesson8.forLoopStringExample();
+        lesson8.basicBranchExample();
+    }
 
     public static void lesson7Example() {
         Lesson7 lesson7 = new Lesson7();
@@ -24,7 +37,7 @@ public class Main {
         //lesson7.basicIfOrExample(180);
         //lesson7.basicSwitch(3);
         //lesson7.otherSwitch("Friday");
-        System.out.println(lesson7.patternSwitch(3));
+        //System.out.println(lesson7.patternSwitch(3));
     }
 
     public static void lesson6Example() {

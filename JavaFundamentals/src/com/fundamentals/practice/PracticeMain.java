@@ -9,7 +9,21 @@ public class PracticeMain {
         // modifiers();
         // lessonsReference();
         //exampleVarargs();
-        operators();
+        //operators();
+        loopPractice();
+       // beer();
+
+    }
+
+    public static void beer() {
+        BottlesOfBeer beer = new BottlesOfBeer();
+        beer.beerSong();
+    }
+
+    public static void loopPractice() {
+        LoopingPractice practice = new LoopingPractice();
+       // practice.divBy5(100);
+       // practice.loopPrime();
 
     }
 
