@@ -6,8 +6,16 @@ public class LabsMain {
 
         // call things here
         //StringsExamples();
-        NumbersExamples();
+        //NumbersExamples();
+        OperatorsExamples();
 
+    }
+
+    public static void OperatorsExamples() {
+        OperatorsLab examples = new OperatorsLab();
+        //examples.taskOne();
+        //examples.taskTwo();
+        examples.taskThree();
     }
 
     public static void NumbersExamples() {
