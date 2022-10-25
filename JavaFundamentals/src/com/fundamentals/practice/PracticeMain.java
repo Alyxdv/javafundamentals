@@ -10,7 +10,7 @@ public class PracticeMain {
         // lessonsReference();
         //exampleVarargs();
         //operators();
-        loopPractice();
+        // loopPractice();
        // beer();
 
     }
@@ -24,6 +24,7 @@ public class PracticeMain {
         LoopingPractice practice = new LoopingPractice();
        // practice.divBy5(100);
        // practice.loopPrime();
+       // practice.fib();
 
     }
 

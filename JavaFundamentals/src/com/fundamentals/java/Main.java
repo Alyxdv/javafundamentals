@@ -3,17 +3,28 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-        //lesson5Example();
+        // lesson5Example();
         // System.out.println("Hello Java");
         // houseExample();
         // lesson3Example();
         // lesson4Example();
         // modifierExample();
-        //lesson6Example();
-        //lesson7Example();
-        lesson8Example();
+        // lesson6Example();
+        // lesson7Example();
+        // lesson8Example();
+        lesson9Example();
 
     } // end method
+
+    public static void lesson9Example() {
+        Lesson9 lesson9 = new Lesson9();
+        // lesson9.basicIntArray();
+        // lesson9.basicStringArray();
+        // lesson9.enhancedForArray();
+        // lesson9.basicTwoDimensionalArray();
+        // lesson9.basicThreeDimensionalArray();
+        lesson9.basicJaggedArray();
+    }
 
     public static void lesson8Example() {
         Lesson8 lesson8 = new Lesson8();
