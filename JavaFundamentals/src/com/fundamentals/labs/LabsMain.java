@@ -9,7 +9,14 @@ public class LabsMain {
         //bNumbersExamples();
         //bOperatorsExamples();
         // conditionExamples();
-        loopLab();
+        //loopLab();
+        arrays();
+    }
+
+    public static void arrays() {
+        ArraysLab examples = new ArraysLab();
+        //examples.taskOne();
+        examples.taskTwo();
     }
 
     public static void loopLab() {
