@@ -5,10 +5,17 @@ public class LabsMain {
     public static void main(String[] args) {
 
         // call things here
-        //StringsExamples();
-        //NumbersExamples();
-        //OperatorsExamples();
-        conditionExamples();
+        // StringsExamples();
+        //bNumbersExamples();
+        //bOperatorsExamples();
+        // conditionExamples();
+        loopLab();
+    }
+
+    public static void loopLab() {
+        LoopingLab examples = new LoopingLab();
+        examples.taskOne();
+        //examples.taskTwo();
     }
 
     public static void conditionExamples() {
