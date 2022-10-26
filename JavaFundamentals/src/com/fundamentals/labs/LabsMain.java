@@ -7,7 +7,15 @@ public class LabsMain {
         // call things here
         //StringsExamples();
         //NumbersExamples();
-        OperatorsExamples();
+        //OperatorsExamples();
+        conditionExamples();
+    }
+
+    public static void conditionExamples() {
+        ConditionsLab examples = new ConditionsLab();
+        //examples.taskOne("monkey", "pig");
+        examples.taskTwo('a');
+
 
     }
 

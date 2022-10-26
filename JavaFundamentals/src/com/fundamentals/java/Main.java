@@ -1,5 +1,7 @@
 package com.fundamentals.java;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,9 +14,24 @@ public class Main {
         // lesson6Example();
         // lesson7Example();
         // lesson8Example();
-        lesson9Example();
+        // lesson9Example();
+        // lesson10Examples();
 
     } // end method
+
+    public static void lesson10Examples() {
+        Lesson10 lesson10 = new Lesson10();
+        //lesson10.stringArrayList();
+
+        ArrayList<House> houseList = lesson10.myHouseList(5);
+        for (House house : houseList) {
+            //house.doorFunction();
+        }
+
+        //lesson10.exampleHashSet();
+        //lesson10.exampleHashMap();
+        lesson10.exampleLinkedList();
+    }
 
     public static void lesson9Example() {
         Lesson9 lesson9 = new Lesson9();
