@@ -16,8 +16,28 @@ public class Main {
         // lesson8Example();
         // lesson9Example();
         // lesson10Examples();
+        // companyExample();
+        lesson11Examples();
 
     } // end method
+
+    public static void lesson11Examples() {
+        System.out.println(Lesson11.fahrenheitToCelcius(58));
+        System.out.println(Lesson11.celciusToFahrenheit(14));
+        System.out.println(Lesson11.celsiusToKelvin(30));
+        System.out.println(Lesson11.kelvinToCelsius(286.64));
+        System.out.println(Lesson11.fahrenheitToKelvin(56));
+        System.out.println(Lesson11.kelvinToFahrenheit(335.648));
+    }
+
+    public static void companyExample() {
+        CompanyInfo info = new CompanyInfo();
+        info.id = 10101;
+        info.name = "Peter Parker";
+        info.display();
+        CompanyInfo.company = "Daily Bugle";
+        info.display();
+    }
 
     public static void lesson10Examples() {
         Lesson10 lesson10 = new Lesson10();

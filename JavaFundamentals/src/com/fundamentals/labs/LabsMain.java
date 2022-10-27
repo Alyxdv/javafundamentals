@@ -6,11 +6,11 @@ public class LabsMain {
 
         // call things here
         // StringsExamples();
-        //bNumbersExamples();
-        //bOperatorsExamples();
+        // NumbersExamples();
+        // OperatorsExamples();
         // conditionExamples();
-        //loopLab();
-        arrays();
+        // loopLab();
+        // arrays();
     }
 
     public static void arrays() {
