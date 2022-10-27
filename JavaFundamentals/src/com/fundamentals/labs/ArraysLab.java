@@ -2,7 +2,7 @@ package com.fundamentals.labs;
 
 public class ArraysLab {
 
-    public void taskOne() { 
+    public void taskOne() {
         String[] flavors = new String[10];
         flavors[0] = "Moose Tracks";
         flavors[1] = "Cookies and Cream";

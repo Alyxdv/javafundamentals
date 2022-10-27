@@ -11,6 +11,13 @@ public class LabsMain {
         // conditionExamples();
         // loopLab();
         // arrays();
+        collections();
+    }
+
+    public static void collections() {
+        CollectionsLab examples = new CollectionsLab();
+        //examples.taskOne();
+        examples.taskThree();
     }
 
     public static void arrays() {
