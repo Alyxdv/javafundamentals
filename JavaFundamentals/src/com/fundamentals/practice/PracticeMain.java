@@ -12,7 +12,43 @@ public class PracticeMain {
         //operators();
         // loopPractice();
        // beer();
+        boat();
+        // dogRecord();
 
+    }
+
+    public static void dogRecord() {
+        Dog myDog = new Dog(3, "Lab", 8);
+
+        System.out.println(myDog.breed());
+        myDog.move();
+    }
+
+    public static void boat() {
+        Boat firstBoat = new Boat();
+        System.out.println("First Boat");
+        firstBoat.anchorFunction();
+        System.out.println("Material Type: " +firstBoat.getMaterialType());
+        System.out.println("Hull Color: " +firstBoat.getHullColor());
+        System.out.println("Anchor Weight: " +firstBoat.getAnchorWeight());
+
+        System.out.println();
+
+        Boat secondBoat = new Boat("Blue", 75);
+        System.out.println("Second Boat");
+        secondBoat.anchorFunction();
+        System.out.println("Material Type: " +secondBoat.getMaterialType());
+        System.out.println("Hull Color: " +secondBoat.getHullColor());
+        System.out.println("Anchor Weight: " +secondBoat.getAnchorWeight());
+
+        System.out.println();
+
+        Boat myBoat = new Boat("Wood", "Red", 50);
+        System.out.println("My Boat");
+        myBoat.anchorFunction();
+        System.out.println("Material Type: " +myBoat.getMaterialType());
+        System.out.println("Hull Color: " +myBoat.getHullColor());
+        System.out.println("Anchor Weight: " +myBoat.getAnchorWeight());
     }
 
     public static void beer() {

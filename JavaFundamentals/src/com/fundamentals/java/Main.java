@@ -15,11 +15,37 @@ public class Main {
         // lesson7Example();
         // lesson8Example();
         // lesson9Example();
-        // lesson10Examples();
+        lesson10Examples();
         // companyExample();
-        lesson11Examples();
+        // lesson11Examples();
+        // encapsulateHouse();
 
     } // end method
+
+    public static void encapsulateHouse() {
+        House house1 = new House();
+        System.out.println(house1.getDoorColor());
+        System.out.println(house1.getWindowSize());
+        System.out.println(house1.getFoundationType());
+        System.out.println(house1.getRoofStyle());
+
+        System.out.println();
+
+        House house2 = new House("Concrete", "Shingle");
+        System.out.println(house2.getDoorColor());
+        System.out.println(house2.getWindowSize());
+        System.out.println(house2.getFoundationType());
+        System.out.println(house2.getRoofStyle());
+
+        System.out.println();
+
+        House house3 = new House("Dirt", "Bamboo", "Tan", 30);
+        System.out.println(house3.getFoundationType());
+        System.out.println(house3.getRoofStyle());
+        System.out.println(house3.getDoorColor());
+        System.out.println(house3.getWindowSize());
+
+    }
 
     public static void lesson11Examples() {
         System.out.println(Lesson11.fahrenheitToCelcius(58));
@@ -45,12 +71,12 @@ public class Main {
 
         ArrayList<House> houseList = lesson10.myHouseList(5);
         for (House house : houseList) {
-            //house.doorFunction();
+            house.doorFunction();
         }
 
         //lesson10.exampleHashSet();
         //lesson10.exampleHashMap();
-        lesson10.exampleLinkedList();
+        // lesson10.exampleLinkedList();
     }
 
     public static void lesson9Example() {
@@ -151,20 +177,27 @@ public class Main {
     * */
     public static void houseExample() {
         House myHouse = new House();
-        myHouse.doorColor = "Red";
+        //myHouse.doorColor = "Red";
+        myHouse.setDoorColor("Red");
         myHouse.doorFunction();
 
         House otherHouse = new House();
-        otherHouse.doorColor = "Yellow";
+        //otherHouse.doorColor = "Yellow";
+        otherHouse.setDoorColor("Yellow");
 
-        System.out.println(myHouse.doorColor);
-        System.out.println(otherHouse.doorColor);
+        //System.out.println(myHouse.doorColor);
+        System.out.println(myHouse.getDoorColor());
+        //System.out.println(otherHouse.doorColor);
+        System.out.println(otherHouse.getDoorColor());
 
         House thirdHouse = otherHouse;
-        thirdHouse.doorColor = "Blue";
+        //thirdHouse.doorColor = "Blue";
+        thirdHouse.setDoorColor("Blue");
 
-        System.out.println(thirdHouse.doorColor);
-        System.out.println(otherHouse.doorColor);
+        //System.out.println(thirdHouse.doorColor);
+        System.out.println(thirdHouse.getDoorColor());
+        // System.out.println(otherHouse.doorColor);
+        System.out.println(otherHouse.getDoorColor());
 
             }
     private static void basicLab() {

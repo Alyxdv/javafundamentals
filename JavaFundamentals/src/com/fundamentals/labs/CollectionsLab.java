@@ -26,12 +26,16 @@ public class CollectionsLab {
         }
     }
 
-    public void taskTwo(int numtot) {
+    public HashSet<Integer> taskTwo(int numtot) {
+
         HashSet<Integer> divBy5s = new HashSet<>();
 
-
+        for (int i = 50; i < numtot; i++) {
+            if ((i % 5) == 0) {
+                divBy5s.add(i);
+            }
         }
-
+        return divBy5s;
     }
 
     /* I tried to use Long for the key, but I kept getting an error
@@ -52,36 +56,3 @@ public class CollectionsLab {
 }
 
 
-   /* Write a method that takes an int parameter. It will have a HashSet return type. The int parameter will
-        represent the total capacity of a for loop. The value used should be a minimum of 50. You are going to
-        generate a HashSet of Integer values that are divisible by 5 using a for loop. Ensure you create your
-        HashSet collection before the for loop. Once you have finished creating it, use the return keyword on
-        that collection. Verify your results and include it in your code checkin.
-
-    public ArrayList<House> myHouseList(int count) {
-        ArrayList<House> houses = new ArrayList<>();
-        for (int i =0; i < count; i++) {               //use this for task 2
-            houses.add(i, new House());
-        }
-        return houses;
-    }*/
-
-    /* HashSet */
-   /* public void exampleHashSet() {                 // with this one!
-        HashSet<String> myHash = new HashSet<>();
-        myHash.add("Firecrackers");
-        myHash.add("Sparklers");
-        myHash.add("Fountains");
-        myHash.add("Quarter Stick");
-        myHash.add("Smoke Bombs");
-        myHash.add("Mortars");
-
-        Iterator<String> init = myHash.iterator();
-        while(init.hasNext()) {
-            System.out.println(init.next());
-        }
-        System.out.println();
-        for (String fun : myHash) {
-            System.out.println(fun.hashCode());
-        }
-    }*/

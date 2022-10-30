@@ -17,7 +17,8 @@ public class LabsMain {
     public static void collections() {
         CollectionsLab examples = new CollectionsLab();
         //examples.taskOne();
-        examples.taskThree();
+        examples.taskTwo(100);
+        //examples.taskThree();
     }
 
     public static void arrays() {
@@ -58,11 +59,4 @@ public class LabsMain {
 
 
 }
-
-
-    //public static void StringsExamples() {
-        //StringsLab examples = new StringsLab();
-        //examples.labStrings();
-        //examples.secondMethod();
-    //}
 
