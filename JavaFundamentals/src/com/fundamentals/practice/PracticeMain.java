@@ -11,15 +11,54 @@ public class PracticeMain {
         //exampleVarargs();
         //operators();
         // loopPractice();
-       // beer();
-        boat();
+        // beer();
+        // boat();
         // dogRecord();
+        // motorboatBaby();
+        // polyShapes();
+        carStuff();
 
+    }
+    // inheritance demo
+    public static void carStuff() {
+        SportsCar theCar = new SportsCar();
+        theCar.carShape();
+        theCar.setExteriorColor("White");
+        theCar.setHorsePower(300);
+        theCar.setWheelSize(17);
+
+        MuscleCar myCar = new MuscleCar();
+        myCar.carShape(); // parent
+        myCar.motion(); // grand parent
+        myCar.setExteriorColor("Black");
+        myCar.setHorsePower(500);
+        myCar.setWheelSize(20);
+
+    }
+
+    public static void polyShapes() {
+        Pentagon pent1 = new Pentagon();
+        double angle1 = pent1.interiorAngleCalc();
+        System.out.println(angle1);
+
+        Hexagon hex1 = new Hexagon();
+        double angle2 = hex1.interiorAngleCalc();
+        System.out.println(angle2);
+
+        Polygon poly1 = new Pentagon(); // type casting
+        double angle3 = poly1.interiorAngleCalc();
+        System.out.println(angle3);
+    }
+
+    public static void motorboatBaby() {
+        Motorboat myMotorboat = new Motorboat();
+        myMotorboat.motorMaintenance();
+        myMotorboat.setEngineType("Hydrolic");
+        System.out.println(myMotorboat.getEngineType());
     }
 
     public static void dogRecord() {
         Dog myDog = new Dog(3, "Lab", 8);
-
         System.out.println(myDog.breed());
         myDog.move();
     }

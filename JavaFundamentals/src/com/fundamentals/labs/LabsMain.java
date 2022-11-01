@@ -11,7 +11,12 @@ public class LabsMain {
         // conditionExamples();
         // loopLab();
         // arrays();
-        collections();
+        // collections();
+        tvLab();
+    }
+
+    public static void tvLab() {
+        Television trials = new Television(42, 580.99);
     }
 
     public static void collections() {

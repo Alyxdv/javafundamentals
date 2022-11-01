@@ -15,12 +15,23 @@ public class Main {
         // lesson7Example();
         // lesson8Example();
         // lesson9Example();
-        lesson10Examples();
+        // lesson10Examples();
         // companyExample();
         // lesson11Examples();
         // encapsulateHouse();
+        condoInheritance();
+
 
     } // end method
+
+    public static void condoInheritance() {
+        Condo myCondo = new Condo();
+        myCondo.setBalconyType("Small balcony");
+        myCondo.doorFunction();// from House
+        myCondo.maintenance(); // from Condo
+        System.out.println(myCondo.getBalconyType());
+        System.out.println(myCondo.getDoorColor());
+    }
 
     public static void encapsulateHouse() {
         House house1 = new House();
