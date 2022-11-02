@@ -26,8 +26,8 @@ public class Main {
 
     public static void condoInheritance() {
         Condo myCondo = new Condo();
-        myCondo.setBalconyType("Small balcony");
-        myCondo.doorFunction();// from House
+        //myCondo.setBalconyType("Small balcony");
+        myCondo.doorFunction();// from House now overridden
         myCondo.maintenance(); // from Condo
         System.out.println(myCondo.getBalconyType());
         System.out.println(myCondo.getDoorColor());
@@ -55,6 +55,8 @@ public class Main {
         System.out.println(house3.getRoofStyle());
         System.out.println(house3.getDoorColor());
         System.out.println(house3.getWindowSize());
+        house3.doorFunction();
+        house3.doorFunction("My door opens short and its color is ");
 
     }
 

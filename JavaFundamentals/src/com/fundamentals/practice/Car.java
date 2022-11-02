@@ -7,11 +7,22 @@ public class Car {
     private String exteriorColor;
 
     public Car() {
+        this(4, 17, 300, "Wood panels");
+    }
 
+    public Car(int numberOfDoors, int wheelSize, int horsePower, String exteriorColor) {
+        this.numberOfDoors = numberOfDoors;
+        this.wheelSize = wheelSize;
+        this.horsePower = horsePower;
+        this.exteriorColor = exteriorColor;
     }
 
     public void motion() {
         System.out.println("I move");
+    }
+
+    public void motion(int speed) {
+        System.out.println(this + " is moving at " + speed + "mph");
     }
 
     public int getNumberOfDoors() {
@@ -44,5 +55,10 @@ public class Car {
 
     public void setExteriorColor(String exteriorColor) {
         this.exteriorColor = exteriorColor;
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName();
     }
 }

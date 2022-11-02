@@ -49,5 +49,9 @@ public class Boat {
         System.out.println("Weigh anchor!");
     }
 
+    public void anchorFunction(String stop) {
+        System.out.println(stop);
+    }
+
 
 }

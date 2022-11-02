@@ -58,4 +58,8 @@ public class House {
     public void doorFunction() {
         System.out.println("This door opens.");
     }
+
+    public void doorFunction(String message) { // overload of doorFunction
+        System.out.println(message + " " + doorColor);
+    }
 } // end class
