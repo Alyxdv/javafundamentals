@@ -52,6 +52,6 @@ public class Television {
     }
 
     public void turnOn() {
-        System.out.println("The" + screenSize + "TV is on.");
+        System.out.println("The " + screenSize + " TV is on.");
     }
 }

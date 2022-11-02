@@ -17,6 +17,7 @@ public class LabsMain {
 
     public static void tvLab() {
         Television trials = new Television(42, 580.99);
+        trials.turnOn();
     }
 
     public static void collections() {
