@@ -19,10 +19,33 @@ public class Main {
         // companyExample();
         // lesson11Examples();
         // encapsulateHouse();
-        condoInheritance();
+        // condoInheritance();
+        lesson15Example();
 
 
     } // end method
+
+    public static void lesson15Example() {
+        int[] numbers = {0,1,2,3,4,5,6,7,8,9};
+        HousePhone phone = new HousePhone(5, 1, numbers, "LCD");
+        phone.receiveCall();
+        phone.sendCall();
+        System.out.println(phone.getScreen() + HousePhone.HASH);
+        phone.endCall();
+        phone.callerID("Spam", 5838382);
+
+        // Using the Abstract class with Upcasting - Don't do it! Probably.
+        AbstractTelephone myTele = new HousePhone(7, 2, numbers, "No screen");
+        myTele.sendCall();
+        myTele.prankCall(phone);
+
+        // Using the phoneInterface with Upcasting can only pull what little is in interface.
+        PhoneInterface myPhone2 = new HousePhone(4, 0 , numbers, "what screen");
+        myPhone2.endCall();
+        myPhone2.callerID("name", 234);
+        System.out.println(PhoneInterface.HASH);
+
+    }
 
     public static void condoInheritance() {
         Condo myCondo = new Condo();
