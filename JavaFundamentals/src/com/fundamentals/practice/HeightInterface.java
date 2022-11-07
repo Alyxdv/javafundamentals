@@ -1,2 +1,5 @@
-package com.fundamentals.practice;public interface HeightInterface {
+package com.fundamentals.practice;
+
+public interface HeightInterface {
+    double getHeight();
 }

@@ -28,14 +28,14 @@ public class Lesson10 {
 
     public ArrayList<House> myHouseList(int count) {
         ArrayList<House> houses = new ArrayList<>();
-        for (int i =0; i < count; i++) {               //use this for task 2
+        for (int i =0; i < count; i++) {
             houses.add(i, new House());
         }
         return houses;
     }
 
     /* HashSet */
-    public void exampleHashSet() {                 // with this one!
+    public void exampleHashSet() {
         HashSet<String> myHash = new HashSet<>();
         myHash.add("Firecrackers");
         myHash.add("Sparklers");
