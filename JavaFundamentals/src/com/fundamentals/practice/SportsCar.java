@@ -13,7 +13,7 @@ public class SportsCar extends Car {
 
     }
      //  this constructor is needed to pass Super from Car to MuscleCar
-    public SportsCar(int numberOfDoors, int wheelSize, int horsePower, String exteriorColor, String headlightType) {
+    public SportsCar(int numberOfDoors, int wheelSize, int horsePower, String exteriorColor, String headlightType) throws Exception {
         super(numberOfDoors, wheelSize, horsePower, exteriorColor);
         this.headlightType = headlightType;
     }

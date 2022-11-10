@@ -77,7 +77,7 @@ public class PracticeMain {
     }
 
     // inheritance demo
-    public static void carStuff() {
+    public static void carStuff() throws Exception {
         SportsCar theCar = new SportsCar();
         System.out.println(theCar.getHeadlightType());
         System.out.println(theCar.getExteriorColor());
@@ -90,7 +90,7 @@ public class PracticeMain {
         //theCar.setExteriorColor("White");
         //theCar.setHorsePower(300);
         //theCar.setWheelSize(17);
-
+       int numDoor = MuscleCar.verifyNumber(2,3,3);
         MuscleCar myCar = new MuscleCar(3, 19, 445, "Green", "Round");
         System.out.println(myCar.getExteriorColor());
         System.out.println(myCar.getHorsePower());

@@ -1,29 +1,63 @@
 package com.fundamentals.java;
 
+import com.fundamentals.practice.MovieGenres;
+
 import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
-        // lesson5Example();
-        // System.out.println("Hello Java");
-        // houseExample();
-        // lesson3Example();
-        // lesson4Example();
-        // modifierExample();
-        // lesson6Example();
-        // lesson7Example();
-        // lesson8Example();
-        // lesson9Example();
-        // lesson10Examples();
-        // companyExample();
-        // lesson11Examples();
-        // encapsulateHouse();
-        // condoInheritance();
-        lesson15Example();
-
-
+        // lesson16Example();
+        // lesson17Example();
+        lesson18Example();
     } // end method
+
+    public static void lesson18Example() {
+        Lesson18 my18 = new Lesson18();
+        // my18.exampleThrows();
+        //my18.sampleThrow(10,0);
+        // my18.exampleException();
+        my18.myArrayException();
+    }
+
+    public static void lesson17Example() {
+        Lesson17 seventeen = new Lesson17();
+        // seventeen.noLambda();
+        // seventeen.withLambda();
+        // seventeen.multiplesLambda();
+        // seventeen.listLambda();
+        // seventeen.filterLambda();
+       // seventeen.company1000();
+       // seventeen.company2000();
+        seventeen.queryInfo(Lesson17.getInfo(), (id -> id.getId() >= 2000));
+    }
+
+    public static void lesson16Example() {
+        // Access enum from class
+        Lesson16 lesson16 = new Lesson16();
+        Lesson16.IceCreamFlavors ice = Lesson16.IceCreamFlavors.STRAWBERRY;
+        System.out.println(ice);
+        lesson16.myFavoriteFlavor(Lesson16.IceCreamFlavors.CHOCOLATE);
+
+        // Access enum from file
+        Week myDay = Week.MON;
+        System.out.println(myDay);
+        myDay.someEnumMethod();
+        System.out.println(myDay.getDayNum());
+
+        Week[] days = Week.values();
+        for(Week day : days) {
+            System.out.println("Week number " + day.getDayNum() + " goes with " + day);
+        }
+
+        // Access enum from other package
+        MovieGenres[] movie = MovieGenres.values();
+
+        for (MovieGenres genres : movie) {
+            //System.out.println(genres + " index of " + genres.ordinal());
+            System.out.println("This " + genres + " is rated " + genres.getRating() + " for all movies of this genre");
+        }
+    }
 
     public static void lesson15Example() {
         int[] numbers = {0,1,2,3,4,5,6,7,8,9};
@@ -93,9 +127,9 @@ public class Main {
     }
 
     public static void companyExample() {
-        CompanyInfo info = new CompanyInfo();
-        info.id = 10101;
-        info.name = "Peter Parker";
+        CompanyInfo info = new CompanyInfo(10101, "Peter Parker");
+        //info.id = 10101;
+        //info.name = "Peter Parker";
         info.display();
         CompanyInfo.company = "Daily Bugle";
         info.display();

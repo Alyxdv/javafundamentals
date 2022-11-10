@@ -12,7 +12,7 @@ public class Parallelogram extends Quadrilaterals  implements HeightInterface{
 
     @Override
     protected double area() {
-        // TODO Base * Hight;
+        // TODO Base * Height;
         // a b sin A = b a sin B
         //A = 45 B = 135
         return refineResult(getLengthA() * getLengthC() * Math.sin(45));
