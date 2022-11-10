@@ -3,21 +3,40 @@
 In this Fundamentals class we began by going over the Software Development Life Cycle. We were introduced to Version Control Systems. This introduced us to using Git for this project. We have learned the following lessons for Java that will help us pass the Java Programer I IZ0-808 Exam:
 
 - All about Strings
-  - [Lesson code]()
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/83b6a66a18b4e16f0df0cd18590d8312e6fdd00e/JavaFundamentals/src/com/fundamentals/java/Lesson3.java)
 - Primitive Data Types
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson4.java)
 - Access Modifiers
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/practice/ModifierPractice.java)
 - Method Flow
+  - [Lesson code]()
 - Working with Calendar Data
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson5.java)
 - Using Operators
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson6.java)
 - Conditional Statements
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson7.java)
 - Looping Statements
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson8.java)
 - Arrays
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson9.java)
 - The Collections Framework
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson10.java)
 - Using Static
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson11.java)
 - Encapsulation
+  - [Lesson code]()
 - Inheritance
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Condo.java)
 - Polymorphism
+  - [Lesson code]()
 - Abstraction
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/AbstractTelephone.java)
+  - [Lesson code: part 2](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/HousePhone.java)
 - Enumerations
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson16.java)
+  - [Lesson code: part 2](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Week.java)
 - Using Lambdas
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson17.java)
 - Exception Handling
+  - [Lesson code](https://github.com/Alyxdv/javafundamentals/blob/main/JavaFundamentals/src/com/fundamentals/java/Lesson18.java)
