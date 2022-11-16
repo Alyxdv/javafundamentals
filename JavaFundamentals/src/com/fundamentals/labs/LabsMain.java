@@ -12,7 +12,13 @@ public class LabsMain {
         // loopLab();
         // arrays();
         // collections();
-        tvLab();
+        // tvLab();
+        lambdaLab();
+    }
+
+    public static void lambdaLab() {
+        LambdaLab trial = new LambdaLab();
+        trial.daLambda();
     }
 
     public static void tvLab() {

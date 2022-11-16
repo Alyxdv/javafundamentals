@@ -4,11 +4,11 @@ public class SportsCar extends Car {
 
     private final String headlightType;
 
-    public SportsCar() {
+    public SportsCar() throws Exception {
         this("flip up");
     }
 
-    public SportsCar(String headlightType) {
+    public SportsCar(String headlightType) throws Exception {
         this(2, 20, 450, "Red", headlightType);
 
     }
